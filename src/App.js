@@ -9,11 +9,11 @@ function App() {
   return (
     <Layout>
       <Routes>
-        <Route path="/React-project/" element={<AllMeetupsPage />} />
+        <Route path="/React-project" element={<AllMeetupsPage />} />
 
-        <Route path="/React-project/new-meetup/" element={<NewMeetupPage />} />
+        <Route path="/React-project/new-meetup" element={<NewMeetupPage />} />
 
-        <Route path="/React-project/favorites/" element={<FavoritesPage />} />
+        <Route path="/React-project/favorites" element={<FavoritesPage />} />
       </Routes>
     </Layout>
   );
