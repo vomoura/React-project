@@ -13,13 +13,13 @@ function MainNavigation() {
       <nav>
         <ul>
           <li>
-            <Link to="/">All Meetups</Link>
+            <Link to="/React-project/">All Meetups</Link>
           </li>
           <li>
-            <Link to="/new-meetup">New Meetup</Link>
+            <Link to="/React-project/new-meetup/">New Meetup</Link>
           </li>
           <li>
-            <Link to="/favorites">Favorites
+            <Link to="/React-project/favorites/">Favorites
             <span className={classes.badge}>{favoritesCtx.totalFavorites} </span>
             </Link>
           </li>
